@@ -13,7 +13,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: "https://citisolve-fullstack-frontent.onrender.com",
+  origin: "https://citisolve-webpage.onrender.com/",
   methods: ["GET","POST","PUT","DELETE"],
   credentials: true
 }));
