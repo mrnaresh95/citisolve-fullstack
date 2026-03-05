@@ -48,7 +48,7 @@ const Complaint = () => {
             }
 
             const response = await fetch(
-                "https://citisolve-fullstack-backend.onrender.com/api/complaints",
+                "https://citisolve-backend-new.onrender.com/api/complaints",
                 {
                     method: "POST",
                     headers: {
