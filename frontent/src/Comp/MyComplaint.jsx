@@ -53,7 +53,7 @@ const MyComplaint = () => {
 
         try {
             const response = await fetch(
-                `http://localhost:5000/api/complaints/${id}`,
+                `https://citisolve-fullstack-backend.onrender.com/api/complaints/${id}`,
                 {
                     method: "DELETE",
                     headers: {
