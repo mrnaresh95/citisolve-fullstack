@@ -22,7 +22,7 @@ const MyComplaint = () => {
 
         try {
             const response = await fetch(
-                "https://citisolve-fullstack-backend.onrender.com/api/complaints/my",
+                "https://citisolve-backend-new.onrender.com/api/complaints/my",
                 {
                     headers: {
                         Authorization: `Bearer ${token}`
@@ -53,7 +53,7 @@ const MyComplaint = () => {
 
         try {
             const response = await fetch(
-                `https://citisolve-fullstack-backend.onrender.com/api/complaints/${id}`,
+                `https://citisolve-backend-new.onrender.com/api/complaints/${id}`,
                 {
                     method: "DELETE",
                     headers: {
