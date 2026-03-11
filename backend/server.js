@@ -13,8 +13,8 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin:[ "https://citisolve-webpage.onrender.com/",
-  "https://citisolve-webpage.onrender.com"]
+  origin:[ "http://localhost:5173",
+    "https://citisolve-webpage.onrender.com"]
   methods: ["GET","POST","PUT","DELETE"],
   credentials: true
 }));
